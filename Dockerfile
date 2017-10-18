@@ -1,6 +1,8 @@
 FROM rocker/rstudio:3.4.1
-RUN apt-get update && apt-get -y install python3-pip \
-     pip install --no-cache-dir notebook==5.* \
+
+RUN apt-get update && \
+    apt-get -y install python3-pip && \
+    pip install --no-cache-dir notebook==5.* 
 
 
 ENV NB_USER rstudio 
