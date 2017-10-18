@@ -12,7 +12,7 @@ ENV HOME /home/rstudio
 # Make sure the contents of our repo are in ${HOME}
 COPY . ${HOME}
 USER root
-RUN chown -R ${NB_UID}:${NB_GID} ${HOME}
+RUN chown -R ${NB_UID}:${NB_UID} ${HOME}
 USER ${NB_USER}
 
 
