@@ -7,14 +7,14 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-RUN R --quiet -e "install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))"
-RUN R --quiet -e "devtools::install_github('IRkernel/IRkernel')"
-RUN R --quiet -e "IRkernel::installspec()"
-
 ENV NB_USER rstudio
 ENV NB_UID 1000
 ENV HOME /home/rstudio
 WORKDIR ${HOME}
+
+USER ${NB_USER}
+
+RUN installGithub.r IRkernel/IRkernel
 
 # Make sure the contents of our repo are in ${HOME}
 COPY . ${HOME}
