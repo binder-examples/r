@@ -14,7 +14,9 @@ WORKDIR ${HOME}
 
 USER ${NB_USER}
 
+# Set up R Kernel for Jupyter
 RUN installGithub.r IRkernel/IRkernel
+RUN R --quiet -e "IRkernel::installspec()"
 
 # Make sure the contents of our repo are in ${HOME}
 COPY . ${HOME}
