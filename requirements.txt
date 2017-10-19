@@ -1,4 +1,0 @@
-numpy==1.13.1
-matplotlib==2.0.2 
-seaborn==0.8.1
-
