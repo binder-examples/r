@@ -16,3 +16,7 @@ COPY . ${HOME}
 USER root
 RUN chown -R ${NB_UID}:${NB_UID} ${HOME}
 USER ${NB_USER}
+
+RUN R --quiet -e "install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))"
+RUN R --quiet -e "devtools::install_github('IRkernel/IRkernel')"
+RUN R --quiet -e "IRkernel::installspec()"
