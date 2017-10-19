@@ -10,6 +10,7 @@ RUN apt-get update && \
 ENV NB_USER rstudio
 ENV NB_UID 1000
 ENV HOME /home/rstudio
+WORKDIR ${HOME}
 
 # Make sure the contents of our repo are in ${HOME}
 COPY . ${HOME}
