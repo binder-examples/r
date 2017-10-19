@@ -15,6 +15,7 @@ WORKDIR ${HOME}
 USER ${NB_USER}
 
 # Set up R Kernel for Jupyter
+RUN install2.r repr IRdisplay evaluate crayon devtools pdbZMQ uuid digest
 RUN installGithub.r IRkernel/IRkernel
 RUN R --quiet -e "IRkernel::installspec()"
 
