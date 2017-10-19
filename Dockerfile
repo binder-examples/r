@@ -15,8 +15,8 @@ WORKDIR ${HOME}
 USER ${NB_USER}
 
 # Set up R Kernel for Jupyter
-RUN install2.r repr IRdisplay evaluate crayon devtools pdbZMQ uuid digest
-RUN installGithub.r IRkernel/IRkernel
+RUN R --quiet -e "install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))"
+RUN R --quiet -e "devtools::install_github('IRkernel/IRkernel')"
 RUN R --quiet -e "IRkernel::installspec()"
 
 # Make sure the contents of our repo are in ${HOME}
