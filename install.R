@@ -1,1 +1,2 @@
-install.packages(c("ggplot2", "rmarkdown"))
+install.packages("ggplot2")
+install.packages("rmarkdown")
