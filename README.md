@@ -1,8 +1,8 @@
 # Specifying an R environment with a runtime.txt file
 
-Jupyter+R: [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/rstudio/master?filepath=index.ipynb)
+Jupyter+R: [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/r/master?filepath=index.ipynb)
 
-RStudio: [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/rstudio/master?urlpath=rstudio)
+RStudio: [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/r/master?urlpath=rstudio)
 
 Binder supports using R + RStudio, with libraries pinned to a specific 
 snapshot on [MRAN](https://mran.microsoft.com/documents/rro/reproducibility).
