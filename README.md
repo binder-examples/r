@@ -4,7 +4,9 @@ Jupyter+R: [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v
 
 RStudio: [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/r/master?urlpath=rstudio)
 
-Binder supports using R + RStudio, with libraries pinned to a specific 
+RShiny: [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/r/master?urlpath=shiny/bus-dashboard)
+
+Binder supports using R + RStudio, with libraries pinned to a specific
 snapshot on [MRAN](https://mran.microsoft.com/documents/rro/reproducibility).
 
 You need to have a `runtime.txt` file that is formatted like:
@@ -22,3 +24,5 @@ and can be used to install libraries.
 Both [RStudio](https://www.rstudio.com/) and [IRKernel](https://irkernel.github.io/)
 are installed by default, so you can use either the Jupyter notebook interface or
 the RStudio interface.
+
+This repository also contains an example of a Shiny app.
