@@ -6,7 +6,7 @@ RStudio: [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/
 
 RShiny: [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/r/master?urlpath=shiny/bus-dashboard/)
 
-Binder supports using R + RStudio, with libraries pinned to a specific
+Binder supports using R and RStudio, with libraries pinned to a specific
 snapshot on [MRAN](https://mran.microsoft.com/documents/rro/reproducibility).
 
 You need to have a `runtime.txt` file that is formatted like:
