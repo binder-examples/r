@@ -1,5 +1,9 @@
-install.packages("tidyverse")
-install.packages("rmarkdown")
-install.packages("httr")
-install.packages("shinydashboard")
-install.packages('leaflet')
+# List of packages to install
+pkgs = c("tidyverse", "rmarkdown", "httr", "shinydashboard", "leaflet")
+
+# Speed up install by allowing multiple cores as
+# the packages above are installed from source and not a binary
+ncores = parallel::detectCores()
+
+# Install each package
+install.packages(pkgs, Ncpus = ncores)
