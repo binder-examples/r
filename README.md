@@ -31,7 +31,7 @@ the RStudio interface.
 
 This repository also contains an example of a Shiny app.
 
-Last, note that if you have your Binder URL points to a folder, as in 
+Last, note that if your Binder URL points to a folder, as in 
 
 http://mybinder.org/v2/gh/binder-examples/r/master?urlpath=shiny/bus-dashboard/,
 
