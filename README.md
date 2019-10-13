@@ -16,9 +16,9 @@ r-<YYYY>-<MM>-<DD>
 ```
 
 where YYYY-MM-DD is a snapshot at MRAN that will be used for installing 
-libraries. In this line, you may also want/need to request an [up-to-date 
-version of R](https://github.com/jupyter/repo2docker/pull/772#issue-313426641). You may do this by introducing the version between the 'r' 
-and the year, as in `r-3.6-2019-09-24`.
+libraries. In this line, you can request a [specific 
+version of R](https://github.com/jupyter/repo2docker/pull/772#issue-313426641). To do this list the version between the 'r' 
+and the year, as in `r-3.6-2019-09-24`. Right now the default version of R is 3.6.
 
 You also need a Python notebook file such as [this one](https://github.com/binder-examples/r/blob/master/index.ipynb).
 
