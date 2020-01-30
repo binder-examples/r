@@ -22,8 +22,7 @@ and the year, as in `r-3.6-2019-09-24`. Right now the default version of R is 3.
 
 You also need a Python notebook file such as [this one](https://github.com/binder-examples/r/blob/master/index.ipynb).
 
-You can also have an `install.R` file that will be executed during build,
-and can be used to install libraries.
+You can also have an `install.R` file that will be executed during build, and can be used to install libraries.
 
 Both [RStudio](https://www.rstudio.com/) and [IRKernel](https://irkernel.github.io/)
 are installed by default, so you can use either the Jupyter notebook interface or
