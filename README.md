@@ -20,7 +20,7 @@ libraries. In this line, you can request a [specific
 version of R](https://github.com/jupyter/repo2docker/pull/772#issue-313426641). To do this list the version between the 'r' 
 and the year, as in `r-3.6-2019-09-24`. Right now the default version of R is 3.6.
 
-> We recommend using https://github.com/binder-examples/r-conda for faster installs
+> We recommend using https://github.com/binder-examples/r-conda for faster installs than using a `install.R`
 
 To install R libraries (or packages) you can add an [`install.R`](install.R) file that specifies one library to install per line.
 
