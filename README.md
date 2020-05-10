@@ -22,7 +22,7 @@ and the year, as in `r-3.6-2019-09-24`. Right now the default version of R is 3.
 
 > We recommend using https://github.com/binder-examples/r-conda for faster installs
 
-To install R libraries (or packages) you can add an `install.R` file that specifies one library to install per line.
+To install R libraries (or packages) you can add an [`install.R`](install.R) file that specifies one library to install per line.
 
 Both [RStudio](https://www.rstudio.com/) and [IRKernel](https://irkernel.github.io/)
 are installed by default, so you can use either the Jupyter notebook interface or
