@@ -20,7 +20,9 @@ libraries. In this line, you can request a [specific
 version of R](https://github.com/jupyter/repo2docker/pull/772#issue-313426641). To do this list the version between the 'r' 
 and the year, as in `r-3.6-2019-09-24`. Right now the default version of R is 3.6.
 
-You also need a Python notebook file such as [this one](https://github.com/binder-examples/r/blob/master/index.ipynb).
+> We recommend using https://github.com/binder-examples/r-conda for faster installs
+
+You also need a Jupyter notebook file such as [this one](https://github.com/binder-examples/r/blob/master/index.ipynb).
 
 You can also have an `install.R` file that will be executed during build, and can be used to install libraries.
 
@@ -37,4 +39,4 @@ http://mybinder.org/v2/gh/binder-examples/r/master?urlpath=shiny/bus-dashboard/,
 you will need (1) to put in the final slash in the URL, and (2) to avoid converted 
 spaces-'%20'-in the URL, instead placing a hyphen.
 
-**Note:** An alternative is to use the excellent [holepunch package for R](https://karthik.github.io/holepunch/articles/getting_started.html).
+**Note:** An alternative is to use the [holepunch package for R](https://karthik.github.io/holepunch/articles/getting_started.html).
