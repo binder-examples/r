@@ -9,6 +9,8 @@ RShiny: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/g
 Binder supports using R and RStudio, with libraries pinned to a specific 
 snapshot on [MRAN](https://mran.microsoft.com/documents/rro/reproducibility).
 
+**Note:** An alternative is to use the [holepunch package for R](https://karthik.github.io/holepunch/articles/getting_started.html).
+
 You need to have a `runtime.txt` file that is formatted like:
 
 ```
@@ -36,5 +38,3 @@ http://mybinder.org/v2/gh/binder-examples/r/master?urlpath=shiny/bus-dashboard/,
 
 you will need (1) to put in the final slash in the URL, and (2) to avoid converted 
 spaces-'%20'-in the URL, instead placing a hyphen.
-
-**Note:** An alternative is to use the [holepunch package for R](https://karthik.github.io/holepunch/articles/getting_started.html).
