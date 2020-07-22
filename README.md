@@ -34,7 +34,7 @@ the RStudio interface.
 
 This repository also contains an example of a [Shiny app](https://github.com/binder-examples/r/tree/master/bus-dashboard).
 
-### URLs addresses for RStudio and Shiny environments
+### URL addresses for RStudio and Shiny environments
 
 The Binder repository can be used to allow anyone to access an RStudio environment containing our code and data right 
 in their web browser. It also allows hosting a Shiny app. For those purposes, we have to append a bit of text to the 
