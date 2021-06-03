@@ -1,4 +1,0 @@
-dependencies:
-  - r-base=4.1
-  - r-tidyverse
-  - r-biocmanager
