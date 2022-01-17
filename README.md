@@ -22,7 +22,7 @@ and `<YYYY>-<MM>-<DD>` is the date for [a snapshot](https://packagemanager.rstud
 from [packagemanager.rstudio.com](https://packagemanager.rstudio.com) that will
 be used for installing your R packages.
 
-The suggestion is to use a date newer than `2022-01-01`, as you'll get faster
+Try using a date newer than `2022-01-01`, as you'll get faster
 package installs thanks to [binary packages](https://www.rstudio.com/blog/package-manager-v1-1-no-interruptions/)
 from rstudio.packagemanager.com!
 
